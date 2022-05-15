@@ -1,16 +1,16 @@
-# Git for technical writers
+= Git for technical writers
 
 This repository is the source code of the Git for technical writers blog. I've used Antora framework to display the content for this blog.
 
-## To generate output
+== To generate output
 
 . Clone this repo.
 . Set up Antora on you link:https://docs.antora.org/antora/latest/install-and-run-quickstart[system].
 . Run the following command on your terminal: `npx antora --fetch antora-playbook.yml`.
 
-----
-* To publish your documentation by using GitLab pages you need to setup a CI pipeline.
 
-* To publish your documentation by using GitHub pages you need to upload the output (the build folder) in a link:https://github.com/Trivedi-Gaurav/git.io[blank repository].
+== To puslish
 
-----
+* On GitLab pages you need to setup a CI pipeline.
+
+* GitHub pages you need to upload the output (the build folder) in a link:https://github.com/Trivedi-Gaurav/git.io[blank repository].
