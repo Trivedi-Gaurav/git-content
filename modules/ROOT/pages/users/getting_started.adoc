@@ -1,0 +1,20 @@
+= HACBS Getting Started Guide
+CP Development Team <cp-devel@redhat.com>
+:toc: left
+:icons: font
+:numbered:
+:source-highlighter: highlightjs
+
+== Scope
+The goal of this guide is to describe the onboarding process that a team
+needs to perform to onboard a product in
+HACBS (Hybrid Application Console Build Services).
+After completing all the steps described in this guide, a product team:
+
+* Has an environment prepared to build a product
+* Has at least a single component of the product defined
+* Is able to build the defined component
+
+This guide guides you through the initial configuration for a product;
+the product definition can be expanded later by adding additional
+configuration information.

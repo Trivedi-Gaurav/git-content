@@ -1,0 +1,13 @@
+= HACBS schema definitions
+CP Development Team <cp-devel@redhat.com>
+:toc: left
+:icons: font
+:numbered:
+:source-highlighter: highlightjs
+
+== Links
+
+* link:/{outfilesuffix}[HACBS Onboarding Schema]
+* link:/{outfilesuffix}[HACBS Product Schema] - [filename]`product.yml` file
+* link:/{outfilesuffix}[HACBS Release Schema] - [filename]`release.yml` file
+* link:/{outfilesuffix}[HACBS Midstream Files]

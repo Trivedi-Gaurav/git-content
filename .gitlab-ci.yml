@@ -1,0 +1,31 @@
+image: node:latest
+
+test:
+  stage: test
+  before_script:
+  - apt-get update
+  - apt-get install -y asciidoctor
+  script:
+  - npm ci
+  - npm run build-production
+  artifacts:
+    paths:
+    - public
+  rules:
+  - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+  tags: [docker]
+
+pages:
+  stage: deploy
+  before_script:
+  - apt-get update
+  - apt-get install -y asciidoctor
+  script:
+  - npm ci
+  - npm run build-production
+  artifacts:
+    paths:
+    - public
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags: [docker]

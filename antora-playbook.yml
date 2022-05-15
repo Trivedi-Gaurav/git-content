@@ -1,0 +1,18 @@
+site:
+  title: HACBS Documentation
+  url: http://localhost:8080
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    edit_url: "https://gitlab.cee.redhat.com/red-hat-hybrid-application-cloud-build-services-documentation/hacbs-documentation/-/blob/{refname}/{path}"
+asciidoc:
+  attributes:
+    icons: font
+    numbered: ''
+    source-highlighter: highlightjs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./antora-lunr-ui

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@antora/cli": "2.3",
+    "@antora/site-generator-default": "2.3",
+    "antora-lunr": "^0.8.0",
+    "http-server": "^13.0.0"
+  },
+  "scripts": {
+    "prebuild": "sed -i \"s/const component = src.component$/const component = src.component === 'ROOT' ? '' : src.component/\" node_modules/@antora/content-classifier/lib/content-catalog.js",
+    "build": "DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora --fetch antora-playbook.yml --generator ./generate-site.js --to-dir public",
+    "build-production": "npm run build -- --url=https://red-hat-hybrid-application-cloud-build-services-documentation.pages.redhat.com/hacbs-documentation",
+    "serve": "http-server public/ -c-1",
+    "dev": "npm run build && npm run serve"
+  }
+}

@@ -1,0 +1,9 @@
+---
+name: ROOT
+version: master  # Needed 'master' because Antora limitations (node_modules/@antora/content-classifier/lib/content-catalog.js:369)
+nav:
+- modules/ROOT/nav.adoc
+- modules/ROOT/nav-users.adoc
+- modules/ROOT/nav-schema.adoc
+- modules/ROOT/nav-developers.adoc
+- modules/ROOT/nav-administration.adoc
