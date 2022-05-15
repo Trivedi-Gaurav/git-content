@@ -6,7 +6,7 @@ This repository is the source code of the Git for technical writers blog. I've u
 
 <ol>
   <li>Clone this repo.</li>
-  <li>Set up Antora on your [system](https://docs.antora.org/antora/latest/install-and-run-quickstart).</li>
+  <li>Set up Antora on your [system](https://docs.antora.org/antora/latest/install-and-run-quickstart). </li>
   <li>Run the following command on your terminal: `npx antora --fetch antora-playbook.yml`. </li>
 </ol>
 
