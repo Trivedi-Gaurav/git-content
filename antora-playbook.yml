@@ -5,7 +5,7 @@ content:
   sources:
   - url: .
     branches: HEAD
-    edit_url: "https://gitlab.cee.redhat.com/red-hat-hybrid-application-cloud-build-services-documentation/hacbs-documentation/-/blob/{refname}/{path}"
+    edit_url: "https://github.com/Trivedi-Gaurav/git-content"
 asciidoc:
   attributes:
     icons: font

@@ -1,0 +1,3 @@
+* xref:resources/index.adoc[Important Resources]
+** xref:resources/faqs.adoc[Frequently Asked Questions]
+** xref:resources/troubleshooting.adoc[Troubleshooting]

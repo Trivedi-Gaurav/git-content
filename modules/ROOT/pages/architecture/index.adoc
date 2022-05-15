@@ -1,9 +1,0 @@
-= HACBS architecture overview
-CP Development Team <cp-devel@redhat.com>
-:toc: left
-:icons: font
-:numbered:
-:source-highlighter: highlightjs
-
-== Scope
-This page provides an overview of the HACBS (Hybrid Application Console) architecture.

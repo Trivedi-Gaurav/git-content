@@ -1,1 +1,0 @@
-* xref:administration/index.adoc[Administration]
